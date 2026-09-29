@@ -1,0 +1,15 @@
+/* div안에 있는 모든 p선택 */
+.section1 p {
+    /* div안에 있는  p는 띄쓰로만 하면된다/ 손자 선택까지 포함함 */
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+/* 자식 선택자/ 손자는 포함안함 */
+.section2 > p {
+    color: yellowgreen;
+}
+
+section > p {
+    color: red;
+}

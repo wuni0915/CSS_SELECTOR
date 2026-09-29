@@ -1,0 +1,73 @@
+/* @charset 이거는 요즘 생략해도 된다함 */
+/* 태그 선택자 */
+body {
+  background-color: yellow;
+}
+
+/* 태그 큰 순서대로 적는게 좋다 */
+h1 {
+  color: rgb(1, 104, 104);
+  font-size: 24px;
+  background-color: rgb(228, 255, 200);
+}
+p {
+  color: blue;
+}
+
+/* 클래스 선택자 */
+h2 {
+  font-size: 32px;
+}
+
+.menu1 {
+  color: red;
+}
+
+.menu2 {
+  color: blue;
+}
+
+.menu3 {
+  color: blueviolet;
+}
+.box {
+  width: 50px;
+  height: 50px;
+  /* 아무것도 없기때문에 높이를 잡을수 없으니 CSS에서 잡아줘야함 */
+  background-color: aqua;
+  border: 2px solid red;
+}
+
+.box1 {
+  background-color: rgb(165, 127, 255);
+  border-radius: 50%;
+}
+
+.box2 {
+  background-color: black;
+  width: 100px;
+}
+
+.box3 {
+  border: 10px solid blue;
+  height: 90px;
+}
+
+/* 아이디 선택자 # */
+#title {
+  font-size: 48px;
+}
+
+#title2 {
+  color: brown;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* /* 여러 선택자 한번에 */
+h1, .desc, .smallTitle {
+  font-size: 14px;
+  color: red;
+  background-color: aqua;
+  font-weight: 600;
+}

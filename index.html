@@ -1,12 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS 선택자</title>
-</head>
-<body>
-    
+    <link rel="stylesheet" href="main.css" />
+    <!-- rel형식으로 CSS파일 연결 -->
+  </head>
+  <body>
     <!-- 깃허브에다 이 순서대로 작업한거 올리기 깃허브 먼저 가기 리드미 앰디가 생기고 깃허브가서 파일이 생겼는지 확인하기(이거는 연결됐다는 뜻임)-->
-</body>
+    <!-- git add . 은 깃에다가 더하겠단거임 -->
+    <!-- 태그 선택자 -->
+    <h1>css선택자</h1>
+    <p>p태그 색상 변경</p>
+    <p>p태그 글자 사이즈 변경</p>
+    <!-- 클래스 선택자 -->
+    <h2 class="menu1">김치 찌개</h2>
+    <h2 class="menu2">된장 찌개</h2>
+    <h2 class="menu3">비빔밥</h2>
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+    <!-- .box 만 해도 디브가 나옴 -->
+    <span id="title">오늘의 메뉴</span>
+    <!-- p#title2 -->
+    <p id="title2">오늘의 할일</p>
+    <h3 id="subtitle" class="subtitle"></h3>
+    <!-- h3#subtitle.subtitle 아이디 옆에 추가 아이디 안됨 클래스는 가넝가넝~ -->
+    <!-- 여러 선택자 한번에 -->
+    <h4>메뉴</h4>
+    <p class="desc">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
+    <span class="smallTitle">안녕하세요</span>
+  </body>
 </html>
